@@ -35,7 +35,11 @@ const login = (e) => setAccess(e)
                         setSuccessfulRegistration={setSuccessfulRegistration}
                         successfulRegistration={successfulRegistration}
                       />}
-          />      
+          />   
+          <Route 
+            path="*" 
+            element={<Authorization access={access} login={login} user={user}/>} 
+          />   
       </Routes>
     </div>
   );

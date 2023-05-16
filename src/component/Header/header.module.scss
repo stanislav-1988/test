@@ -1,4 +1,4 @@
-$background-color-base: #ffffff;
+
 
 .header-container {
    display: flex;
@@ -6,7 +6,7 @@ $background-color-base: #ffffff;
    margin: 0;
    padding: 0;
    height: 80px;
-   background-color: $background-color-base;
+   background-color: greenyellow;
    & .header-title {
       display: inline;
       margin-right: 200px;

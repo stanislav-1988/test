@@ -18,7 +18,12 @@ function Authorization({access, login, user}) {
   });
 
   if (access) {
-    return <>{user.login}</>;
+    return (
+      <div className={classes['secretPage']}>
+        <h1 className={classes['h']}>{user.login}</h1>;
+      </div>
+    
+    )
   }
 
   const sendingDataForAuthorization = (e) => {
